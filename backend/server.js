@@ -133,13 +133,15 @@ app.post('/send-code', async (req, res) => {
         </html>
         `
         ,
-      attachments: [
-        {
-          filename: 'factoryislandtransparent.png',
-          path: path.resolve(__dirname, '../src/assets/factoryislandtransparent.png'),
-          cid: 'factoryislandlogo'
-        }
-      ]
+        attachments: [
+          {
+            filename: "factoryislandtrans2.png",
+            path: path.resolve(__dirname, "assets/factoryislandtrans2.png"),
+            cid: "factoryislandlogo",
+          },
+        ],
+        
+      
     };
     
     

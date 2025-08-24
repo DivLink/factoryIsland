@@ -104,8 +104,8 @@ export async function sendRecoveryCode(email) {
 `,
     attachments: [
       {
-        filename: 'factoryislandtransparent.png',
-        path: path.resolve(__dirname, '../src/assets/factoryislandtransparent.png'),
+        filename: 'factoryislandtrans2.png',
+        path: path.resolve(__dirname, '../src/assets/factoryislandtrans2.png'),
         cid: 'factoryislandlogo',
       },
     ],

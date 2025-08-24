@@ -23,7 +23,7 @@ import { useNavigate } from "react-router-dom";
 function Nav({ openLoginPopup, openSignupPopup }) {
   const [currentUser, setCurrentUser] = useState(null);
   const [showDropdown, setShowDropdown] = useState(false);
-  const navigate = useNavigate(); // ✅ Only declared once
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
